@@ -1,0 +1,2045 @@
+Unknown parameter
+task = training
+directory = dir100
+corpus_file = ../Reuters/train-data.dat
+initialization method = seeded
+model_name = (null)
+number of topics = 100
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+**** em iteration 1 ****
+119322 u update(s)
+1617 u update(s)
+482 u update(s)
+110 u update(s)
+20 u update(s)
+3 u update(s)
+0 u update(s)
+5843 v update(s)
+2015 v update(s)
+185 v update(s)
+22 v update(s)
+7 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+8698 u update(s)
+773 u update(s)
+158 u update(s)
+38 u update(s)
+4 u update(s)
+0 u update(s)
+2479 v update(s)
+586 v update(s)
+71 v update(s)
+11 v update(s)
+3 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+4157 u update(s)
+326 u update(s)
+53 u update(s)
+4 u update(s)
+0 u update(s)
+1328 v update(s)
+277 v update(s)
+24 v update(s)
+2 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+2293 u update(s)
+163 u update(s)
+28 u update(s)
+4 u update(s)
+0 u update(s)
+774 v update(s)
+175 v update(s)
+22 v update(s)
+2 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+1295 u update(s)
+81 u update(s)
+11 u update(s)
+0 u update(s)
+493 v update(s)
+90 v update(s)
+9 v update(s)
+0 v update(s)
+**** em iteration 6 ****
+913 u update(s)
+75 u update(s)
+9 u update(s)
+2 u update(s)
+0 u update(s)
+353 v update(s)
+70 v update(s)
+5 v update(s)
+2 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 7 ****
+651 u update(s)
+44 u update(s)
+6 u update(s)
+2 u update(s)
+2 u update(s)
+0 u update(s)
+309 v update(s)
+63 v update(s)
+4 v update(s)
+0 v update(s)
+**** em iteration 8 ****
+633 u update(s)
+41 u update(s)
+5 u update(s)
+1 u update(s)
+0 u update(s)
+267 v update(s)
+49 v update(s)
+4 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 9 ****
+513 u update(s)
+44 u update(s)
+6 u update(s)
+0 u update(s)
+231 v update(s)
+66 v update(s)
+6 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 10 ****
+453 u update(s)
+37 u update(s)
+5 u update(s)
+1 u update(s)
+1 u update(s)
+0 u update(s)
+212 v update(s)
+33 v update(s)
+1 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 11 ****
+375 u update(s)
+32 u update(s)
+5 u update(s)
+0 u update(s)
+104 v update(s)
+16 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 12 ****
+214 u update(s)
+20 u update(s)
+3 u update(s)
+0 u update(s)
+77 v update(s)
+16 v update(s)
+2 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir100
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir100/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir100/final.other
+loading dir100/final.beta
+loading dir100/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+**** em iteration 19 ****
+**** em iteration 20 ****
+Unknown parameter
+task = training
+directory = dir95
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir95/init
+number of topics = 95
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir95/init.other
+loading dir95/init.beta
+loading dir95/init.u
+**** em iteration 1 ****
+13441 u update(s)
+1489 u update(s)
+349 u update(s)
+99 u update(s)
+25 u update(s)
+7 u update(s)
+1 u update(s)
+0 u update(s)
+2297 v update(s)
+456 v update(s)
+50 v update(s)
+6 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+3821 u update(s)
+366 u update(s)
+76 u update(s)
+13 u update(s)
+0 u update(s)
+692 v update(s)
+77 v update(s)
+11 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+1243 u update(s)
+118 u update(s)
+18 u update(s)
+5 u update(s)
+1 u update(s)
+0 u update(s)
+323 v update(s)
+41 v update(s)
+7 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+569 u update(s)
+53 u update(s)
+9 u update(s)
+0 u update(s)
+176 v update(s)
+26 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+387 u update(s)
+35 u update(s)
+4 u update(s)
+0 u update(s)
+104 v update(s)
+19 v update(s)
+1 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir95
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir95/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir95/final.other
+loading dir95/final.beta
+loading dir95/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+**** em iteration 19 ****
+**** em iteration 20 ****
+Unknown parameter
+task = training
+directory = dir90
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir90/init
+number of topics = 90
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir90/init.other
+loading dir90/init.beta
+loading dir90/init.u
+**** em iteration 1 ****
+6369 u update(s)
+703 u update(s)
+179 u update(s)
+40 u update(s)
+8 u update(s)
+1 u update(s)
+0 u update(s)
+1969 v update(s)
+372 v update(s)
+19 v update(s)
+2 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+3291 u update(s)
+322 u update(s)
+56 u update(s)
+6 u update(s)
+2 u update(s)
+0 u update(s)
+608 v update(s)
+73 v update(s)
+6 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+1134 u update(s)
+100 u update(s)
+12 u update(s)
+1 u update(s)
+0 u update(s)
+269 v update(s)
+22 v update(s)
+3 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+487 u update(s)
+55 u update(s)
+6 u update(s)
+0 u update(s)
+132 v update(s)
+22 v update(s)
+1 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+299 u update(s)
+25 u update(s)
+0 u update(s)
+76 v update(s)
+6 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir90
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir90/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir90/final.other
+loading dir90/final.beta
+loading dir90/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+**** em iteration 19 ****
+**** em iteration 20 ****
+Unknown parameter
+task = training
+directory = dir85
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir85/init
+number of topics = 85
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir85/init.other
+loading dir85/init.beta
+loading dir85/init.u
+**** em iteration 1 ****
+5698 u update(s)
+689 u update(s)
+124 u update(s)
+27 u update(s)
+7 u update(s)
+1 u update(s)
+0 u update(s)
+1931 v update(s)
+333 v update(s)
+23 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+3152 u update(s)
+269 u update(s)
+48 u update(s)
+6 u update(s)
+0 u update(s)
+578 v update(s)
+75 v update(s)
+13 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+981 u update(s)
+92 u update(s)
+11 u update(s)
+1 u update(s)
+0 u update(s)
+258 v update(s)
+31 v update(s)
+4 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+503 u update(s)
+44 u update(s)
+6 u update(s)
+0 u update(s)
+131 v update(s)
+12 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+316 u update(s)
+29 u update(s)
+4 u update(s)
+0 u update(s)
+67 v update(s)
+6 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir85
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir85/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir85/final.other
+loading dir85/final.beta
+loading dir85/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+**** em iteration 19 ****
+**** em iteration 20 ****
+Unknown parameter
+task = training
+directory = dir80
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir80/init
+number of topics = 80
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir80/init.other
+loading dir80/init.beta
+loading dir80/init.u
+**** em iteration 1 ****
+5241 u update(s)
+690 u update(s)
+150 u update(s)
+35 u update(s)
+5 u update(s)
+0 u update(s)
+1985 v update(s)
+384 v update(s)
+38 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+3089 u update(s)
+269 u update(s)
+49 u update(s)
+5 u update(s)
+0 u update(s)
+596 v update(s)
+66 v update(s)
+2 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+921 u update(s)
+73 u update(s)
+12 u update(s)
+3 u update(s)
+0 u update(s)
+250 v update(s)
+26 v update(s)
+2 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+396 u update(s)
+34 u update(s)
+1 u update(s)
+0 u update(s)
+152 v update(s)
+14 v update(s)
+3 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+319 u update(s)
+36 u update(s)
+2 u update(s)
+0 u update(s)
+62 v update(s)
+7 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir80
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir80/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir80/final.other
+loading dir80/final.beta
+loading dir80/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+**** em iteration 19 ****
+Unknown parameter
+task = training
+directory = dir75
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir75/init
+number of topics = 75
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir75/init.other
+loading dir75/init.beta
+loading dir75/init.u
+**** em iteration 1 ****
+5199 u update(s)
+679 u update(s)
+136 u update(s)
+25 u update(s)
+3 u update(s)
+0 u update(s)
+2079 v update(s)
+379 v update(s)
+38 v update(s)
+7 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+3140 u update(s)
+293 u update(s)
+48 u update(s)
+10 u update(s)
+0 u update(s)
+630 v update(s)
+99 v update(s)
+16 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+928 u update(s)
+76 u update(s)
+8 u update(s)
+0 u update(s)
+236 v update(s)
+24 v update(s)
+1 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+379 u update(s)
+42 u update(s)
+4 u update(s)
+0 u update(s)
+121 v update(s)
+12 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+219 u update(s)
+18 u update(s)
+4 u update(s)
+0 u update(s)
+65 v update(s)
+4 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir75
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir75/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir75/final.other
+loading dir75/final.beta
+loading dir75/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+**** em iteration 19 ****
+Unknown parameter
+task = training
+directory = dir70
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir70/init
+number of topics = 70
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir70/init.other
+loading dir70/init.beta
+loading dir70/init.u
+**** em iteration 1 ****
+5124 u update(s)
+656 u update(s)
+144 u update(s)
+24 u update(s)
+3 u update(s)
+0 u update(s)
+2151 v update(s)
+421 v update(s)
+49 v update(s)
+9 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+3067 u update(s)
+298 u update(s)
+68 u update(s)
+7 u update(s)
+0 u update(s)
+608 v update(s)
+70 v update(s)
+11 v update(s)
+2 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+849 u update(s)
+86 u update(s)
+11 u update(s)
+1 u update(s)
+0 u update(s)
+256 v update(s)
+20 v update(s)
+5 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+403 u update(s)
+42 u update(s)
+10 u update(s)
+1 u update(s)
+0 u update(s)
+133 v update(s)
+14 v update(s)
+3 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+225 u update(s)
+18 u update(s)
+3 u update(s)
+0 u update(s)
+77 v update(s)
+8 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir70
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir70/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir70/final.other
+loading dir70/final.beta
+loading dir70/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+**** em iteration 19 ****
+Unknown parameter
+task = training
+directory = dir65
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir65/init
+number of topics = 65
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir65/init.other
+loading dir65/init.beta
+loading dir65/init.u
+**** em iteration 1 ****
+5033 u update(s)
+712 u update(s)
+145 u update(s)
+27 u update(s)
+4 u update(s)
+1 u update(s)
+0 u update(s)
+2188 v update(s)
+409 v update(s)
+34 v update(s)
+2 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+2978 u update(s)
+246 u update(s)
+43 u update(s)
+6 u update(s)
+1 u update(s)
+0 u update(s)
+614 v update(s)
+65 v update(s)
+5 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+848 u update(s)
+65 u update(s)
+10 u update(s)
+0 u update(s)
+256 v update(s)
+35 v update(s)
+4 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+414 u update(s)
+40 u update(s)
+4 u update(s)
+0 u update(s)
+151 v update(s)
+20 v update(s)
+2 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+263 u update(s)
+21 u update(s)
+1 u update(s)
+0 u update(s)
+79 v update(s)
+9 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir65
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir65/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir65/final.other
+loading dir65/final.beta
+loading dir65/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+**** em iteration 19 ****
+Unknown parameter
+task = training
+directory = dir60
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir60/init
+number of topics = 60
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir60/init.other
+loading dir60/init.beta
+loading dir60/init.u
+**** em iteration 1 ****
+5042 u update(s)
+593 u update(s)
+133 u update(s)
+28 u update(s)
+9 u update(s)
+1 u update(s)
+1 u update(s)
+0 u update(s)
+2156 v update(s)
+410 v update(s)
+29 v update(s)
+8 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+2851 u update(s)
+258 u update(s)
+41 u update(s)
+5 u update(s)
+0 u update(s)
+612 v update(s)
+88 v update(s)
+9 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+793 u update(s)
+60 u update(s)
+8 u update(s)
+2 u update(s)
+0 u update(s)
+259 v update(s)
+26 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+373 u update(s)
+27 u update(s)
+2 u update(s)
+0 u update(s)
+136 v update(s)
+9 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+184 u update(s)
+15 u update(s)
+1 u update(s)
+0 u update(s)
+63 v update(s)
+4 v update(s)
+1 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir60
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir60/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir60/final.other
+loading dir60/final.beta
+loading dir60/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+**** em iteration 19 ****
+Unknown parameter
+task = training
+directory = dir55
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir55/init
+number of topics = 55
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir55/init.other
+loading dir55/init.beta
+loading dir55/init.u
+**** em iteration 1 ****
+4735 u update(s)
+559 u update(s)
+125 u update(s)
+34 u update(s)
+12 u update(s)
+3 u update(s)
+0 u update(s)
+2268 v update(s)
+410 v update(s)
+30 v update(s)
+4 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+2847 u update(s)
+244 u update(s)
+44 u update(s)
+4 u update(s)
+0 u update(s)
+673 v update(s)
+69 v update(s)
+7 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+758 u update(s)
+41 u update(s)
+4 u update(s)
+0 u update(s)
+278 v update(s)
+29 v update(s)
+2 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+368 u update(s)
+32 u update(s)
+5 u update(s)
+1 u update(s)
+0 u update(s)
+152 v update(s)
+13 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+243 u update(s)
+18 u update(s)
+1 u update(s)
+0 u update(s)
+86 v update(s)
+12 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir55
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir55/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir55/final.other
+loading dir55/final.beta
+loading dir55/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+**** em iteration 19 ****
+Unknown parameter
+task = training
+directory = dir50
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir50/init
+number of topics = 50
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir50/init.other
+loading dir50/init.beta
+loading dir50/init.u
+**** em iteration 1 ****
+4660 u update(s)
+579 u update(s)
+112 u update(s)
+23 u update(s)
+3 u update(s)
+1 u update(s)
+0 u update(s)
+2339 v update(s)
+442 v update(s)
+49 v update(s)
+4 v update(s)
+2 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+2739 u update(s)
+206 u update(s)
+32 u update(s)
+4 u update(s)
+0 u update(s)
+718 v update(s)
+84 v update(s)
+9 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+775 u update(s)
+58 u update(s)
+9 u update(s)
+0 u update(s)
+330 v update(s)
+32 v update(s)
+3 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+366 u update(s)
+33 u update(s)
+2 u update(s)
+0 u update(s)
+156 v update(s)
+21 v update(s)
+2 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+231 u update(s)
+13 u update(s)
+1 u update(s)
+0 u update(s)
+89 v update(s)
+5 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir50
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir50/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir50/final.other
+loading dir50/final.beta
+loading dir50/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+**** em iteration 19 ****
+Unknown parameter
+task = training
+directory = dir45
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir45/init
+number of topics = 45
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir45/init.other
+loading dir45/init.beta
+loading dir45/init.u
+**** em iteration 1 ****
+4462 u update(s)
+457 u update(s)
+103 u update(s)
+21 u update(s)
+1 u update(s)
+0 u update(s)
+2330 v update(s)
+456 v update(s)
+37 v update(s)
+5 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+2583 u update(s)
+204 u update(s)
+34 u update(s)
+2 u update(s)
+0 u update(s)
+660 v update(s)
+74 v update(s)
+14 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+766 u update(s)
+51 u update(s)
+5 u update(s)
+1 u update(s)
+0 u update(s)
+307 v update(s)
+33 v update(s)
+3 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+366 u update(s)
+35 u update(s)
+2 u update(s)
+1 u update(s)
+0 u update(s)
+159 v update(s)
+15 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+172 u update(s)
+17 u update(s)
+2 u update(s)
+0 u update(s)
+86 v update(s)
+11 v update(s)
+2 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir45
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir45/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir45/final.other
+loading dir45/final.beta
+loading dir45/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+**** em iteration 19 ****
+Unknown parameter
+task = training
+directory = dir40
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir40/init
+number of topics = 40
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir40/init.other
+loading dir40/init.beta
+loading dir40/init.u
+**** em iteration 1 ****
+4454 u update(s)
+573 u update(s)
+123 u update(s)
+19 u update(s)
+2 u update(s)
+0 u update(s)
+2392 v update(s)
+468 v update(s)
+45 v update(s)
+7 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+2423 u update(s)
+189 u update(s)
+31 u update(s)
+6 u update(s)
+0 u update(s)
+720 v update(s)
+79 v update(s)
+13 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+732 u update(s)
+58 u update(s)
+10 u update(s)
+1 u update(s)
+0 u update(s)
+344 v update(s)
+37 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+365 u update(s)
+20 u update(s)
+1 u update(s)
+0 u update(s)
+140 v update(s)
+17 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+168 u update(s)
+6 u update(s)
+0 u update(s)
+72 v update(s)
+4 v update(s)
+1 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir40
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir40/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir40/final.other
+loading dir40/final.beta
+loading dir40/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+Unknown parameter
+task = training
+directory = dir35
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir35/init
+number of topics = 35
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir35/init.other
+loading dir35/init.beta
+loading dir35/init.u
+**** em iteration 1 ****
+4251 u update(s)
+511 u update(s)
+101 u update(s)
+17 u update(s)
+6 u update(s)
+0 u update(s)
+2383 v update(s)
+491 v update(s)
+40 v update(s)
+6 v update(s)
+3 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+2368 u update(s)
+153 u update(s)
+23 u update(s)
+0 u update(s)
+807 v update(s)
+113 v update(s)
+14 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+814 u update(s)
+47 u update(s)
+6 u update(s)
+1 u update(s)
+0 u update(s)
+374 v update(s)
+49 v update(s)
+3 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+369 u update(s)
+19 u update(s)
+4 u update(s)
+0 u update(s)
+194 v update(s)
+28 v update(s)
+2 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+229 u update(s)
+3 u update(s)
+0 u update(s)
+117 v update(s)
+11 v update(s)
+1 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir35
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir35/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir35/final.other
+loading dir35/final.beta
+loading dir35/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+Unknown parameter
+task = training
+directory = dir30
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir30/init
+number of topics = 30
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir30/init.other
+loading dir30/init.beta
+loading dir30/init.u
+**** em iteration 1 ****
+4151 u update(s)
+447 u update(s)
+80 u update(s)
+9 u update(s)
+0 u update(s)
+2495 v update(s)
+568 v update(s)
+46 v update(s)
+4 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+2280 u update(s)
+143 u update(s)
+19 u update(s)
+5 u update(s)
+0 u update(s)
+806 v update(s)
+105 v update(s)
+11 v update(s)
+1 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+719 u update(s)
+37 u update(s)
+4 u update(s)
+0 u update(s)
+388 v update(s)
+52 v update(s)
+4 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+300 u update(s)
+8 u update(s)
+1 u update(s)
+0 u update(s)
+211 v update(s)
+22 v update(s)
+4 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+173 u update(s)
+9 u update(s)
+0 u update(s)
+117 v update(s)
+15 v update(s)
+4 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir30
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir30/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir30/final.other
+loading dir30/final.beta
+loading dir30/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+Unknown parameter
+task = training
+directory = dir25
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir25/init
+number of topics = 25
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir25/init.other
+loading dir25/init.beta
+loading dir25/init.u
+**** em iteration 1 ****
+4081 u update(s)
+389 u update(s)
+72 u update(s)
+19 u update(s)
+1 u update(s)
+0 u update(s)
+2522 v update(s)
+540 v update(s)
+42 v update(s)
+3 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+2132 u update(s)
+135 u update(s)
+18 u update(s)
+2 u update(s)
+0 u update(s)
+809 v update(s)
+105 v update(s)
+7 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+654 u update(s)
+29 u update(s)
+6 u update(s)
+2 u update(s)
+0 u update(s)
+358 v update(s)
+53 v update(s)
+10 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+291 u update(s)
+17 u update(s)
+1 u update(s)
+0 u update(s)
+204 v update(s)
+28 v update(s)
+2 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+179 u update(s)
+10 u update(s)
+0 u update(s)
+114 v update(s)
+14 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir25
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir25/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir25/final.other
+loading dir25/final.beta
+loading dir25/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+Unknown parameter
+task = training
+directory = dir20
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir20/init
+number of topics = 20
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir20/init.other
+loading dir20/init.beta
+loading dir20/init.u
+**** em iteration 1 ****
+3612 u update(s)
+263 u update(s)
+38 u update(s)
+9 u update(s)
+2 u update(s)
+1 u update(s)
+0 u update(s)
+2674 v update(s)
+533 v update(s)
+32 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+1863 u update(s)
+116 u update(s)
+17 u update(s)
+1 u update(s)
+0 u update(s)
+885 v update(s)
+119 v update(s)
+7 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+645 u update(s)
+43 u update(s)
+7 u update(s)
+0 u update(s)
+492 v update(s)
+61 v update(s)
+7 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+348 u update(s)
+8 u update(s)
+1 u update(s)
+0 u update(s)
+283 v update(s)
+29 v update(s)
+3 v update(s)
+3 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+206 u update(s)
+10 u update(s)
+0 u update(s)
+163 v update(s)
+18 v update(s)
+2 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir20
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir20/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir20/final.other
+loading dir20/final.beta
+loading dir20/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+**** em iteration 18 ****
+Unknown parameter
+task = training
+directory = dir15
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir15/init
+number of topics = 15
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir15/init.other
+loading dir15/init.beta
+loading dir15/init.u
+**** em iteration 1 ****
+3670 u update(s)
+285 u update(s)
+60 u update(s)
+8 u update(s)
+4 u update(s)
+1 u update(s)
+0 u update(s)
+2762 v update(s)
+561 v update(s)
+46 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+1730 u update(s)
+90 u update(s)
+11 u update(s)
+4 u update(s)
+2 u update(s)
+0 u update(s)
+972 v update(s)
+135 v update(s)
+17 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+653 u update(s)
+32 u update(s)
+7 u update(s)
+1 u update(s)
+0 u update(s)
+493 v update(s)
+87 v update(s)
+5 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+307 u update(s)
+17 u update(s)
+1 u update(s)
+0 u update(s)
+289 v update(s)
+25 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+195 u update(s)
+7 u update(s)
+0 u update(s)
+165 v update(s)
+20 v update(s)
+1 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir15
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir15/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir15/final.other
+loading dir15/final.beta
+loading dir15/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+**** em iteration 17 ****
+Unknown parameter
+task = training
+directory = dir10
+corpus_file = ../Reuters/train-data.dat
+initialization method = load
+model_name = dir10/init
+number of topics = 10
+EM_max_ite = 100
+EM_convergence = 0.000300
+save_lag = -1
+step = 0
+reading data from ../Reuters/train-data.dat
+number of docs    : 8357
+number of terms   : 8262
+loading dir10/init.other
+loading dir10/init.beta
+loading dir10/init.u
+**** em iteration 1 ****
+3681 u update(s)
+263 u update(s)
+51 u update(s)
+6 u update(s)
+0 u update(s)
+2722 v update(s)
+621 v update(s)
+35 v update(s)
+2 v update(s)
+0 v update(s)
+**** em iteration 2 ****
+1615 u update(s)
+66 u update(s)
+13 u update(s)
+2 u update(s)
+0 u update(s)
+1087 v update(s)
+154 v update(s)
+8 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 3 ****
+556 u update(s)
+15 u update(s)
+2 u update(s)
+0 u update(s)
+539 v update(s)
+65 v update(s)
+4 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 4 ****
+310 u update(s)
+9 u update(s)
+0 u update(s)
+352 v update(s)
+32 v update(s)
+0 v update(s)
+**** em iteration 5 ****
+236 u update(s)
+3 u update(s)
+0 u update(s)
+260 v update(s)
+31 v update(s)
+1 v update(s)
+0 v update(s)
+**** em iteration 6 ****
+184 u update(s)
+2 u update(s)
+0 u update(s)
+192 v update(s)
+16 v update(s)
+3 v update(s)
+0 v update(s)
+Unknown parameter
+task = test
+directory = dir10
+corpus_file = ../Reuters/test-data.dat
+initialization method = seeded
+model_name = dir10/final
+number of topics = 0
+EM_max_ite = 100
+EM_convergence = 0.000100
+save_lag = -1
+step = 0
+reading data from ../Reuters/test-data.dat
+number of docs    : 4052
+number of terms   : 8262
+loading dir10/final.other
+loading dir10/final.beta
+loading dir10/final.u
+**** em iteration 1 ****
+**** em iteration 2 ****
+**** em iteration 3 ****
+**** em iteration 4 ****
+**** em iteration 5 ****
+**** em iteration 6 ****
+**** em iteration 7 ****
+**** em iteration 8 ****
+**** em iteration 9 ****
+**** em iteration 10 ****
+**** em iteration 11 ****
+**** em iteration 12 ****
+**** em iteration 13 ****
+**** em iteration 14 ****
+**** em iteration 15 ****
+**** em iteration 16 ****
+M* = 50
