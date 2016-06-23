@@ -34,11 +34,15 @@ old_vocabs = [x.split(',')[0] for x in open('Reuters/vocabs.txt').readlines()]
 
 # write new words:
 fp = open('Reuters/ptm_vocabs.txt','w')
+fp2 = open('Reuters/ptm_vocabs_stats.txt','w')
 wrd_map = {}
 for n,w in enumerate(selected_ind):
 	wrd_map.update({w:n})
+	temp = np.fabs(beta[w,np.where(uswitch[w,:]==1)[0]+1]-beta[w,0])
+	fp2.write('%.5f %.5f %.5f\n' %(np.max(temp),np.mean(temp),np.std(temp)))
 	fp.write('%s, %d' %(old_vocabs[w],n))
 fp.close()
+fp2.close()
 
 # rewrite documents based on the new dictionary
 
